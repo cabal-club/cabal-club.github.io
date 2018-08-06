@@ -166,10 +166,19 @@ table {
     padding-left: 25px;
     padding-right: 25px; } }
 .nav-bar a.nav-logo {
-  margin-left: unset;
-  text-align: center; }
-.nav-bar a.nav-logo img {
-  max-width: 140px; }
+  display: block;
+  background-image: url(../logo.black.svg);
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  position: relative;
+  top:10px;
+  margin-left:0px
+}
+.nav-bar a.nav-logo:hover {
+  opacity:0.8;
+}
 .nav-bar .nav-right {
   align-items: center;
   display: flex;
@@ -840,6 +849,40 @@ body.landing .links .verified {
   display: inline-block; }
 body.landing .button:hover {
   color: white !important; }
+
+#guide {
+}
+#guide li {
+  line-height: 15px;
+  padding:10px 15px;
+}
+#guide hr {
+  background:#ccc;
+  height:1px;
+  display: block;
+  border:0px;
+  margin:5px 0px;
+}
+
+#guide code {
+  font-size:14px;
+}
+
+#public {
+  border-top:2px solid #f7f9fb;
+  padding: 30px
+}
+
+#public h2 {
+  font-size:16px;
+  margin-bottom: 0px
+}
+#public h3 {
+  font-size: 14px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  padding: 0px 10px;
+}
 
 .hero-info {
   padding: 14px 0px; }
