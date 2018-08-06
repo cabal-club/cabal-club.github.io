@@ -166,10 +166,19 @@ table {
     padding-left: 25px;
     padding-right: 25px; } }
 .nav-bar a.nav-logo {
-  margin-left: unset;
-  text-align: center; }
-.nav-bar a.nav-logo img {
-  max-width: 140px; }
+  display: block;
+  background-image: url(../logo.black.svg);
+  background-size: contain;
+  height: 60px;
+  width: 60px;
+  background-repeat: no-repeat;
+  position: relative;
+  top:10px;
+  margin-left:0px
+}
+.nav-bar a.nav-logo:hover {
+  opacity:0.8;
+}
 .nav-bar .nav-right {
   align-items: center;
   display: flex;
