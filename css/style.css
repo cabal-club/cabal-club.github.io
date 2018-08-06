@@ -850,6 +850,40 @@ body.landing .links .verified {
 body.landing .button:hover {
   color: white !important; }
 
+#guide {
+}
+#guide li {
+  line-height: 15px;
+  padding:10px 15px;
+}
+#guide hr {
+  background:#ccc;
+  height:1px;
+  display: block;
+  border:0px;
+  margin:5px 0px;
+}
+
+#guide code {
+  font-size:14px;
+}
+
+#public {
+  border-top:2px solid #f7f9fb;
+  padding: 30px
+}
+
+#public h2 {
+  font-size:16px;
+  margin-bottom: 0px
+}
+#public h3 {
+  font-size: 14px;
+  border: 1.5px solid black;
+  border-radius: 4px;
+  padding: 0px 10px;
+}
+
 .hero-info {
   padding: 14px 0px; }
 .hero-info:not(:last-child) {
