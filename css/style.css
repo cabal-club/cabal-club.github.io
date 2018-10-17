@@ -871,6 +871,7 @@ body.landing .button:hover {
 #public {
   border-top:2px solid #f7f9fb;
   padding: 30px 0;
+  width: 620px;
 }
 
 #public h2 {
