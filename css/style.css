@@ -858,12 +858,10 @@ body.landing .button:hover {
   line-height: 15px;
   padding:10px 15px;
 }
-#guide hr {
-  background:#ccc;
-  height:1px;
-  display: block;
-  border:0px;
-  margin:5px 0px;
+#guide li.border {
+  border-top: 1px solid #C2C2C2;
+  margin-top:5px;
+  padding-top:12px;
 }
 
 #guide code {
