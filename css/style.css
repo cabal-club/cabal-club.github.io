@@ -634,6 +634,13 @@ h5 {
   margin: 0;
   padding: 0; }
 
+.h2-homepage {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 34px;
+  margin-bottom: 12px;
+}
+
 .space-top {
   padding-top: 30px; }
 
